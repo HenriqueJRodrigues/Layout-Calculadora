@@ -12,7 +12,8 @@ class Homepage extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        title: Text('Calculadora.'),
+        //  centerTitle: true,
+        title: Text('Calculadora'),
       ),
       body: SafeArea(
         child: Column(
@@ -29,65 +30,60 @@ class Homepage extends StatelessWidget {
               height: 120,
               color: Colors.white,
             ),
+            SizedBox(
+              height: 4,
+            ),
             Row(
               children: [
                 Expanded(
-                  child: Container(
-                    height: 100,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        'C',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      'C',
+                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 100,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        'DEL',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      'DEL',
+                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 100,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '%',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '%',
+                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 100,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '/',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '/',
+                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
@@ -96,62 +92,54 @@ class Homepage extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                  child: Container(
-                    height: 83,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '7',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '7',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 83,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '8',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '8',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 83,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '9',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '9',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 83,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '*',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '*',
+                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
@@ -160,62 +148,54 @@ class Homepage extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '6',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '4',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '5',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '5',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '4',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '6',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '+',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '+',
+                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
@@ -224,62 +204,54 @@ class Homepage extends StatelessWidget {
             Row(
               children: [
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '1',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '1',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '2',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '2',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '3',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '3',
+                      style: TextStyle(fontSize: 45, color: Colors.white),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 80,
-                    color: Colors.black,
-                    child: Center(
-                      child: Text(
-                        '-',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
-                      ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      '-',
+                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                    ),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black,
+                      minimumSize: Size(0, 80),
                     ),
                   ),
                 ),
@@ -289,49 +261,34 @@ class Homepage extends StatelessWidget {
               children: [
                 Expanded(
                   flex: 2,
-                  child: Container(
-                    height: 110,
-                    color: Colors.black,
-                    child: Center(
+                  child: ElevatedButton(
+                      onPressed: () {},
                       child: Text(
                         '0',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
+                        style: TextStyle(fontSize: 45, color: Colors.white),
                       ),
-                    ),
-                  ),
+                      style: ElevatedButton.styleFrom(
+                          primary: Colors.black, minimumSize: Size(0, 80))),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 110,
-                    color: Colors.black,
-                    child: Center(
+                  child: ElevatedButton(
+                      onPressed: () {},
                       child: Text(
                         '.',
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 45,
-                        ),
+                        style: TextStyle(fontSize: 45, color: Colors.white),
                       ),
-                    ),
-                  ),
+                      style: ElevatedButton.styleFrom(
+                          primary: Colors.black, minimumSize: Size(0, 80))),
                 ),
                 Expanded(
-                  child: Container(
-                    height: 110,
-                    color: Colors.black,
-                    child: Center(
+                  child: ElevatedButton(
+                      onPressed: () {},
                       child: Text(
                         '=',
-                        style: TextStyle(
-                          color: Colors.lightBlue,
-                          fontSize: 45,
-                        ),
+                        style: TextStyle(fontSize: 45, color: Colors.lightBlue),
                       ),
-                    ),
-                  ),
+                      style: ElevatedButton.styleFrom(
+                          primary: Colors.black, minimumSize: Size(0, 80))),
                 ),
               ],
             ),
