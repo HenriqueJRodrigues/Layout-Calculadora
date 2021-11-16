@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+import 'package:google_fonts/google_fonts.dart';
+
 
 class Homepage extends StatelessWidget {
   const Homepage({key}) : super(key: key);
@@ -12,8 +13,8 @@ class Homepage extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        //  centerTitle: true,
-        title: Text('Calculadora'),
+          centerTitle: true,
+        title: Text('Calculadora', style:GoogleFonts.montserrat(fontSize: 25, color: Colors.white),),
       ),
       body: SafeArea(
         child: Column(
@@ -23,7 +24,7 @@ class Homepage extends StatelessWidget {
               child: Center(
                 child: Text(
                   'Visor',
-                  style: TextStyle(fontSize: 45, color: Colors.black),
+                  style: GoogleFonts.montserrat(fontSize: 45, color: Colors.black)
                 ),
               ),
               width: 400,
@@ -40,7 +41,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       'C',
-                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold)
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -53,7 +54,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       'DEL',
-                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                      style: GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold)
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -66,7 +67,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '%',
-                      style: TextStyle(fontSize: 32, color: Colors.lightBlue),
+                      style: GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -79,7 +80,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '/',
-                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -96,7 +97,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '7',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -109,7 +110,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '8',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -122,7 +123,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '9',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -135,7 +136,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '*',
-                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -152,7 +153,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '4',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -165,7 +166,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '5',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -178,7 +179,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '6',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -191,7 +192,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '+',
-                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                      style: GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -208,7 +209,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '1',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -221,7 +222,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '2',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -234,7 +235,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '3',
-                      style: TextStyle(fontSize: 45, color: Colors.white),
+                      style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -247,7 +248,7 @@ class Homepage extends StatelessWidget {
                     onPressed: () {},
                     child: Text(
                       '-',
-                      style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                      style: GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                     ),
                     style: ElevatedButton.styleFrom(
                       primary: Colors.black,
@@ -265,7 +266,7 @@ class Homepage extends StatelessWidget {
                       onPressed: () {},
                       child: Text(
                         '0',
-                        style: TextStyle(fontSize: 45, color: Colors.white),
+                        style:  GoogleFonts.montserrat(fontSize: 32, color: Colors.white)
                       ),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.black, minimumSize: Size(0, 80))),
@@ -275,7 +276,7 @@ class Homepage extends StatelessWidget {
                       onPressed: () {},
                       child: Text(
                         '.',
-                        style: TextStyle(fontSize: 45, color: Colors.white),
+                        style: GoogleFonts.montserrat(fontSize: 40, color: Colors.white),
                       ),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.black, minimumSize: Size(0, 80))),
@@ -285,7 +286,7 @@ class Homepage extends StatelessWidget {
                       onPressed: () {},
                       child: Text(
                         '=',
-                        style: TextStyle(fontSize: 45, color: Colors.lightBlue),
+                        style: GoogleFonts.montserrat(fontSize: 32, color: Colors.lightBlue, fontWeight: FontWeight.bold),
                       ),
                       style: ElevatedButton.styleFrom(
                           primary: Colors.black, minimumSize: Size(0, 80))),
